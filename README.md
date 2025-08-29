@@ -1,4 +1,4 @@
-# My-Work-Time-Preparation
+# My-Work-Time
 
 The AI tool for generating summaries, transcriptions, and code.
 
