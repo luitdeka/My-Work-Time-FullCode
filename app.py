@@ -10,7 +10,7 @@ import base64
 
 app = Flask(__name__)
 
-client = genai.Client(api_key="AIzaSyCJIOUGpGcxHlGU7GNbXNCcweyV0jyI4Sk")
+client = genai.Client(api_key="ENTER-API-KEY")
 model = whisper.load_model("base")
 
 def clean(output):
@@ -240,3 +240,4 @@ def code():
 
 if __name__ == "__main__":
     app.run()
+
